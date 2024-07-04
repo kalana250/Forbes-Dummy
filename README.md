@@ -1,4 +1,5 @@
 Create,
 Horizontal Navbar,
-Footer bar, 
-Featured Articles part.
+Footer Bar, 
+Featured Articles part,
+Credit Section
