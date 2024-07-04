@@ -1,0 +1,29 @@
+.footer {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  font: 10px Work Sans,sans-serif;
+}
+
+.footer p {
+  margin: 0;
+  font: 10px Work Sans,sans-serif;
+  letter-spacing: 1px;
+}
+
+
+.footer h1 {
+  color: black;
+  font-size: 40px;
+  font-weight: 1000;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: -2px;
+  cursor: pointer;
+}
+
+.footer h1 a {
+  color: black;
+  text-decoration: none;
+}
+
