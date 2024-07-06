@@ -1,0 +1,58 @@
+.div1{
+  width: 100%;
+  height: 4000px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div2{
+  width: 970px;
+  height: 3590px;
+  display: flex;
+  background-color: transparent;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+
+}
+
+.div3{
+  width: 100%;
+  height: 250px;
+  background-color: chartreuse;
+  margin: 40px;
+  margin-left: 0;
+  margin-top: 0;
+  position: relative;
+  display: inline-block;
+
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.close-button {
+  position: absolute;
+  top: 5px;
+  right: -2px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.close-button mat-icon {
+  font-size: 24px;
+  color: tomato; /* Change the color if needed */
+}
+
+.div2 > .div3:first-child{
+  margin-top: 0px;
+}
+
+.div2 > .div3:last-child{
+  margin-bottom: 0px;
+}
