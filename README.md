@@ -1,7 +1,7 @@
-# Project README
+# Group Project FORBES
 
 
-##Setup Instructions
+## Setup Instructions
 .To view and run the project locally, follow these steps:
 
 01. Clone the repository from [GitHub Repo URL].
