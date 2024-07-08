@@ -1,6 +1,6 @@
 # Project README
-## Overview
-This project involves the creation of web pages for the Forbes website using HTML, CSS, and Angular. The goal was to design and implement 10 different pages as part of a group project.
+
+
 ##Setup Instructions
 .To view and run the project locally, follow these steps:
 
