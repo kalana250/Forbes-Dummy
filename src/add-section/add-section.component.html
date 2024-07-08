@@ -1,0 +1,13 @@
+<div class="div1">
+  <div class="div2">
+    <ng-container *ngFor="let image of images; let i = index">
+      <div class="div3" [ngClass]="{'hidden': !image.isVisible}">
+        <img [src]="image.src">
+        <button class="close-button" (click)="closeImage(i)">
+          <mat-icon>close</mat-icon>
+        </button>
+      </div>
+      <p *ngIf="i < images.length - 1" class="divider">Some additional content or space here</p>
+    </ng-container>
+  </div>
+</div>
