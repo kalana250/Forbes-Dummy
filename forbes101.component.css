@@ -1,0 +1,80 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.article-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.article {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.text {
+    flex: 1;
+}
+
+.date {
+    color: #888;
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.author {
+    color: #555;
+    font-size: 16px;
+    margin: 5px 0 10px 0;
+}
+
+.description {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.path {
+    color: #777;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.advertisement td {
+    background-color: #dc18a1;
+    padding:20px;
+    margin: 50px;
+}
+
+.adcontainer{
+    background-color: red;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 25px solid white;
+    border-top: 20px solid #4fc3dc;
+    animation: animate 2.5s linear infinite;
+
+}
